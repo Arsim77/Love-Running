@@ -247,6 +247,7 @@ main {
 
 /* Large devices (screens, 1200px and up) */
 @media screen and (min-width: 1200px) {
+    /* Reasons section */
     #benefits {
         display:flex;
         flex-direction: row;
@@ -260,7 +261,7 @@ main {
     #benefits-mental {
         order: 1;
     }
-    #benefits-menta > div {
+    #benefits-mental > div {
         align-self: flex-start;
     }
     #benefits-physical > div {
